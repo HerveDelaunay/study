@@ -1,0 +1,15 @@
+[project]
+name = "study-tracker-bakend"
+version = "0.0.0"
+description = "Backend API for tracking study time for DevOps certifications"
+readme = "README.md"
+authors = [{ name = "HerveDelaunay", email = "herve@gmail.com" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+backend = "backend.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
