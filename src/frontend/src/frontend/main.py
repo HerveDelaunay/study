@@ -22,6 +22,9 @@ app.config["DEBUG"] = os.getenv("FLASK_DEBUG", "False").lower() == "true"
 app.config["HOST"] = os.getenv("FRONTEND_HOST", "0.0.0.0")
 
 
+# This comment is used to trigger the CI pipeline
+
+
 def format_session(session: Dict[str, Any]) -> Dict[str, Any]:
     """Format a session's timestamp for display"""
     timestamp = datetime.fromisoformat(session["timestamp"].replace("Z", "+00:00"))
