@@ -5,7 +5,6 @@ on:
       - "backend*"
 env:
   REGISTRY: ghcr.io
-  BACKEND_IMAGE_NAME: ${{ github.repository_owner }}/study-app-api
 jobs:
   build-and-push-backend:
     name: Build and Push Backend
@@ -26,9 +25,11 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract tag name
-        id: tag
-        run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+      - name: Extract tag name and prepare image name
+        id: meta
+        run: |
+          echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          echo "LOWERCASE_BACKEND_IMAGE_NAME=$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')/study-app-api" >> $GITHUB_OUTPUT
 
       - name: Build and push Backend Docker image
         uses: docker/build-push-action@v5
@@ -36,8 +37,8 @@ jobs:
           context: ./src/backend
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ env.BACKEND_IMAGE_NAME }}:${{ steps.tag.outputs.TAG }}
-            ${{ env.REGISTRY }}/${{ env.BACKEND_IMAGE_NAME }}:latest
+            ${{ env.REGISTRY }}/${{ steps.meta.outputs.LOWERCASE_BACKEND_IMAGE_NAME }}:${{ steps.meta.outputs.TAG }}
+            ${{ env.REGISTRY }}/${{ steps.meta.outputs.LOWERCASE_BACKEND_IMAGE_NAME }}:latest
     outputs:
-      tag: ${{ steps.tag.outputs.TAG }}
+      tag: ${{ steps.meta.outputs.TAG }}
       app: backend
