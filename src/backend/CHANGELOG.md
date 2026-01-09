@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/HerveDelaunay/study/compare/backend-v0.1.0...backend-v0.2.0) (2026-01-09)
+
+
+### Features
+
+* **backend:** add container image building and pushing to ghcr ([#7](https://github.com/HerveDelaunay/study/issues/7)) ([746df73](https://github.com/HerveDelaunay/study/commit/746df738f502cd2ac88f8c88ea6cb3a2468f7e54))
+
 ## 0.1.0 (2025-11-06)
 
 
