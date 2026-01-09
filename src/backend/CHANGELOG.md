@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/HerveDelaunay/study/compare/backend-v0.2.0...backend-v0.2.1) (2026-01-09)
+
+
+### Bug Fixes
+
+* **backend:** add lowercase image name ([#9](https://github.com/HerveDelaunay/study/issues/9)) ([7fc75f0](https://github.com/HerveDelaunay/study/commit/7fc75f000b05f409c386638b8a0030607263173f))
+
 ## [0.2.0](https://github.com/HerveDelaunay/study/compare/backend-v0.1.0...backend-v0.2.0) (2026-01-09)
 
 
