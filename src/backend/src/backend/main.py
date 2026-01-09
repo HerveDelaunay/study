@@ -38,6 +38,9 @@ app.add_middleware(
 )
 
 
+# This comment is used to trigger the CI pipeline
+
+
 @app.get("/")
 async def root():
     """Root endpoint returning API information"""
