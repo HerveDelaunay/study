@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.0...frontend-v0.1.1) (2026-01-12)
+
+
+### Bug Fixes
+
+* **frontend:** fix docker CMD entrypoint underscore typo ([#14](https://github.com/HerveDelaunay/study/issues/14)) ([1cde11c](https://github.com/HerveDelaunay/study/commit/1cde11ceb6f62d990ef88f95e4064f46d79e0ae5))
+
 ## 0.1.0 (2026-01-09)
 
 
