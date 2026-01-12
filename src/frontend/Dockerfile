@@ -24,4 +24,4 @@ COPY --from=builder --chown=app:app /app/.venv /app/.venv
 
 EXPOSE 22111
 
-CMD ["/app/.venv/bin/study_tracker_frontend"]
+CMD ["/app/.venv/bin/study-tracker-frontend"]
