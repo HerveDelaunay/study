@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.1...frontend-v0.1.2) (2026-01-13)
+
+
+### Bug Fixes
+
+* **frontend:** trigger ci ([5dd30a3](https://github.com/HerveDelaunay/study/commit/5dd30a349553e07b7f5db18a40a1fc87e38209ea))
+
 ## [0.1.1](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.0...frontend-v0.1.1) (2026-01-12)
 
 
