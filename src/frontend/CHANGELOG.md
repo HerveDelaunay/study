@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.2...frontend-v0.1.3) (2026-01-13)
+
+
+### Bug Fixes
+
+* **gitops:** fix update gitops trigger typo in the docker build and push workflow ([2090345](https://github.com/HerveDelaunay/study/commit/2090345931a6e44ab713854569f4b74e784cfcb0))
+
 ## [0.1.2](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.1...frontend-v0.1.2) (2026-01-13)
 
 
