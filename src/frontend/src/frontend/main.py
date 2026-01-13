@@ -23,6 +23,7 @@ app.config["HOST"] = os.getenv("FRONTEND_HOST", "0.0.0.0")
 
 
 # This comment is used to trigger the CI pipeline
+# This comment is used to trigger the CI pipeline
 
 
 def format_session(session: Dict[str, Any]) -> Dict[str, Any]:
