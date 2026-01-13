@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.3...frontend-v0.1.4) (2026-01-13)
+
+
+### Bug Fixes
+
+* **gitops:** fix typo in trigger gitops workflow input passing ([abbd332](https://github.com/HerveDelaunay/study/commit/abbd33265fdeba9b000a627351cfc40fa7fe7fab))
+
 ## [0.1.3](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.2...frontend-v0.1.3) (2026-01-13)
 
 
