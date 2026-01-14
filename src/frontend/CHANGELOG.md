@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.4...frontend-v0.1.5) (2026-01-14)
+
+
+### Bug Fixes
+
+* **gitops:** changed the image name passed to the update gitops workflow ([98167fd](https://github.com/HerveDelaunay/study/commit/98167fd72593acb77380dbbbadac4d6d8adc5f46))
+
 ## [0.1.4](https://github.com/HerveDelaunay/study/compare/frontend-v0.1.3...frontend-v0.1.4) (2026-01-13)
 
 
